@@ -78,3 +78,14 @@ Use '--' to separate paths from revisions, like this:
 > git remote --verbose
 > git config --get commit.template
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/behzad/Desktop/Mydocker/complex/docker-compose.yml
+> git cat-file -s c238abd26a4baf000a2829bbc0e9872d4f0fff59
+> git show :docker-compose.yml
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
