@@ -1,0 +1,5 @@
+[2020-06-24 11:17:21.925] [sharedprocess] [info] main {"machineId":"7556da4c6660e366899ecf23ad82e98f8d90903f43d0e230984dfcc37782c2f3","windowId":2}
+[2020-06-24 11:17:21.968] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/behzad/Desktop/Mydocker/complex/nginx/User/snippets'
+[2020-06-24 11:17:23.041] [sharedprocess] [info] Deleted from disk github.vscode-pull-request-github /root/.vscode/extensions/github.vscode-pull-request-github-0.16.1
+[2020-06-24 11:17:23.075] [sharedprocess] [info] Deleted from disk ms-azuretools.vscode-docker /root/.vscode/extensions/ms-azuretools.vscode-docker-1.2.1
+[2020-06-24 11:18:01.946] [sharedprocess] [info] Starting to clean up unused language packs.
