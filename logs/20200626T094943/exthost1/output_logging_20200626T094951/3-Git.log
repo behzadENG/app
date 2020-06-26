@@ -1,0 +1,18 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/behzad/Desktop/Mydocker/complex
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git show :docker-compose.yml
+> git ls-files --stage -- /home/behzad/Desktop/Mydocker/complex/docker-compose.yml
+> git cat-file -s d839639d6b0145841ae9a7d7ebd57b19d4bd9993
+> git check-ignore -v -z --stdin
